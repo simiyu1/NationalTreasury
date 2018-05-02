@@ -6,6 +6,35 @@
 
     <string name="action_settings">Settings</string>
     <string name="card1">
-        <b>Treasury News</b>
-The National Treasury and Ministry of Planning Cabinet Secretary, Henry Rotich [Centre], with his Chief Administrative Secretary, Nelson Gaichuhie [2right], Principal Secretary, State Department for Planning, Dr.Julius Muia [2left], Kenya National Bureau of Statistics Director General, Zachary Mwangi [right] and Economic Planning Secretary, Joseph Mukui [left], during the launch of the Economic Survey Report 2018 and ISO 9001-2015 Certification at Kenyatta International Convention Centre.</string>
+        <b>Treasury News</b> \n
+The National Treasury and Ministry of Planning Cabinet Secretary, Henry Rotich [Centre], with his
+        Chief Administrative Secretary, Nelson Gaichuhie [2right], Principal Secretary,
+        State Department for Planning, Dr.Julius Muia [2left], Kenya National Bureau of Statistics
+        Director General, Zachary Mwangi [right] and Economic Planning Secretary, Joseph Mukui [left],
+        during the launch of the Economic Survey Report 2018 and ISO 9001-2015 Certification at
+        Kenyatta International Convention Centre.</string>
+    <string name="card2">
+        <b>KENYA MORTGAGE REFINANCE COMPANY (KMRC)</b> \n
+ Joint press conference on status of AfDB funded projects in Kenya
+
+The National Treasury and Ministry of Planning Cabinet Secretary, Henry Rotich [right], with African
+        Development Bank [AfDB] Executive Director, Dr. Nyamajeje Caleb [left], addressing a joint
+        press conference on the status of AfDB funded projects in Kenya, held at the National
+        Treasury office, 13.4.2018.
+
+1. National Treasury Cabinet Secretary, Henry Rotich  addressing Stakeholders on Kenya Mortgage
+        Refinance Company (KMRC) at a Nairobi Hotel.  KMRC, an initiative of National Treasury
+        and World Bank will support the affordable housing agenda by providing secure, long-term
+        funding to the mortgage lenders, thereby increasing the availability and affordability of
+        mortgage loans to Kenyans.</string>
+    <string name="title1"><b>The Launch of the 2018 Economic Survey Report and ISO 9001:2015 Certification</b></string>
+    <string name="sample1">The National Treasury and Ministry of Planning Cabinet Secretary, Henry Rotich [Centre], with his Chief Administrative Secretary, Nelson Gaichuhie [2right], Principal Secretary, State Department for Planning, Dr.Julius Muia</string>
+    <string name="title2"><b>Joint press conference on status of AfDB funded projects in Kenya</b></string>
+    <string name="sample2">The National Treasury and Ministry of Planning Cabinet Secretary, Henry Rotich [right], with African Development Bank [AfDB] Executive Director, Dr. Nyamajeje Caleb [left], addressing a joint press conference on the status</string>
+    <string name="title3"><b>Kenya Mortgage Refinance Company (KMRC) Stakeholders address</b></string>
+    <string name="sample3">National Treasury Cabinet Secretary, Henry Rotich addressing Stakeholders on Kenya Mortgage Refinance Company (KMRC) at a Nairobi Hotel. KMRC, an initiative of National Treasury and World Bank will support the affordable housing agenda by</string>
+    <string name="title4"><b>Launch Of The 2015/16 Kenya Integrated Household Budget Survey Basic Reports</b></string>
+    <string name="sample4">Speech By Mr. Henry Rotich, EGH, Cabinet Secretary, To The National Treasury And Ministry Of Planning 22nd March 2018 At The KICC, Nairobi.</string>
+    <string name="title5">Signing of Loan Agreement between Kenya and Japan</string>
+    <string name="sample5">Nairobi,March 16, 23018 \n National Treasury Cabinet Secretary, Henry Rotich (Center) and Japanese Ambassador to Kenya, Toshitsugu Uesawa (2nd Left) pend their signatures to loan agreements for Olkaria 1, 2 and 3 Geothermal Power Rehabilitation Project amounting to Sh 9.53 billion and the Exchange of</string>
 </resources>
