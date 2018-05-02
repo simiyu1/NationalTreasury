@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Treasury</string>
+    
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="card1">
+        <b>Treasury News</b>
+The National Treasury and Ministry of Planning Cabinet Secretary, Henry Rotich [Centre], with his Chief Administrative Secretary, Nelson Gaichuhie [2right], Principal Secretary, State Department for Planning, Dr.Julius Muia [2left], Kenya National Bureau of Statistics Director General, Zachary Mwangi [right] and Economic Planning Secretary, Joseph Mukui [left], during the launch of the Economic Survey Report 2018 and ISO 9001-2015 Certification at Kenyatta International Convention Centre.</string>
+</resources>
