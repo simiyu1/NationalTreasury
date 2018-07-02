@@ -1,0 +1,146 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="simiyu.com.treasury.VacanciesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/web"
+                tools:ignore="WebViewLayout">
+
+            </WebView>
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/cardview1"-->
+                <!--android:backgroundTint="#BBDEFB"-->
+                <!--android:layout_marginTop="30dp">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/vacancy1_title"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:id="@+id/vacancy1"-->
+                    <!--android:padding="1dp"-->
+                    <!--android:background="#42A5F5"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="40dp"-->
+                    <!--android:text="@string/vacancy1"-->
+                    <!--android:padding="8dp"-->
+                    <!--android:textColor="#1976D2"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="65dp"-->
+                    <!--android:text="@string/vacancy2"-->
+                    <!--android:padding="8dp"-->
+                    <!--android:textColor="#1976D2"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="90dp"-->
+                    <!--android:text="@string/vacancy3"-->
+                    <!--android:padding="8dp"-->
+                    <!--android:textColor="#1976D2"/>-->
+            <!--</android.support.v7.widget.CardView>-->
+
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/cardview1"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:id="@+id/cardview2"-->
+                <!--android:backgroundTint="#BBDEFB">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/advert_job"-->
+                    <!--android:text="@string/advert_title"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textAllCaps="true"-->
+                    <!--android:gravity="center"-->
+                    <!--android:background="#42A5F5"-->
+                    <!--android:padding="1dp"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--android:id="@+id/advert1"-->
+                    <!--android:text="@string/advert1"-->
+                    <!--android:textColor="#1976D2"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="65dp"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:layout_marginBottom="8dp"-->
+                    <!--android:id="@+id/advert2"-->
+                    <!--android:text="@string/advert2"-->
+                    <!--android:textColor="#1976D2"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="105dp"-->
+                    <!--android:layout_marginBottom="5dp"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:id="@+id/advert3"-->
+                    <!--android:text="@string/advert3"-->
+                    <!--android:textColor="#1976D2"/>-->
+            <!--</android.support.v7.widget.CardView>-->
+
+            <!--<android.support.v7.widget.CardView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/cardview2"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:backgroundTint="#BBDEFB">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/form"-->
+                    <!--android:text="@string/form_title"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textAllCaps="true"-->
+                    <!--android:gravity="center"-->
+                    <!--android:background="#42A5F5"-->
+                    <!--android:padding="1dp"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="20dp"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:id="@+id/form1"-->
+                    <!--android:text="@string/form1"-->
+                    <!--android:textColor="#1976D2"/>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="45dp"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:id="@+id/form2"-->
+                    <!--android:text="@string/form2"-->
+                    <!--android:textColor="#1976D2"/>-->
+
+            <!--</android.support.v7.widget.CardView>-->
+        </ScrollView>
+
+    </FrameLayout>

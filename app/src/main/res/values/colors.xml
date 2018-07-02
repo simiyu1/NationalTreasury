@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorLightBg">#BCAAA4</color>
+    <color name="colorHeaderBg">#B87E0B</color>
+    <color name="colorLinkActive">#9f6500</color>
+    <color name="colorTextHeader">#EEEEEE</color>
 </resources>
+   <!-- 5D4037 / E65100 /B87E0B/f1a818-->

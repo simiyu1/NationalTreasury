@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Treasury</string>
-    
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
@@ -30,13 +30,92 @@ The National Treasury and Ministry of Planning Cabinet Secretary, Henry Rotich [
         funding to the mortgage lenders, thereby increasing the availability and affordability of
         mortgage loans to Kenyans.</string>
     <string name="title1"><b>The Launch of the 2018 Economic Survey Report and ISO 9001:2015 Certification</b></string>
-    <string name="sample1">The National Treasury and Ministry of Planning Cabinet Secretary, Henry Rotich [Centre], with his Chief Administrative Secretary, Nelson Gaichuhie [2right], Principal Secretary, State Department for Planning, Dr.Julius Muia</string>
+    <string name="sample1">The National Treasury derives its mandate from the Constitution 2010, the Public Management Act 2012 and the Executive Order No.2/2013.
+The core functions of the National Treasury as derived from the above legal provisions include.....</string>
     <string name="title2"><b>Joint press conference on status of AfDB funded projects in Kenya</b></string>
-    <string name="sample2">The National Treasury and Ministry of Planning Cabinet Secretary, Henry Rotich [right], with African Development Bank [AfDB] Executive Director, Dr. Nyamajeje Caleb [left], addressing a joint press conference on the status</string>
+    <string name="vision">Vision</string>
+    <string name="sample2">The National Treasury derives its mandate from the Constitution 2010, the Public Management Act 2012
+        and the Executive order No. 2/2013. The National Treasury will be executing its mandate
+        in consistency with any other legislation as may be developed or reviewed by Parliament from time to time...</string>
     <string name="title3"><b>Kenya Mortgage Refinance Company (KMRC) Stakeholders address</b></string>
-    <string name="sample3">National Treasury Cabinet Secretary, Henry Rotich addressing Stakeholders on Kenya Mortgage Refinance Company (KMRC) at a Nairobi Hotel. KMRC, an initiative of National Treasury and World Bank will support the affordable housing agenda by</string>
+    <string name="sample3">To be an institution of excellence in economic and public financial management.</string>
+    <string name="mission">Mission</string>
+    <string name="mission_text">To promote economic transformation for shared growth through formulation,
+        implementation and monitoring of prudent economic and financial policy at National and County levels of Government.</string>
     <string name="title4"><b>Launch Of The 2015/16 Kenya Integrated Household Budget Survey Basic Reports</b></string>
     <string name="sample4">Speech By Mr. Henry Rotich, EGH, Cabinet Secretary, To The National Treasury And Ministry Of Planning 22nd March 2018 At The KICC, Nairobi.</string>
     <string name="title5">Signing of Loan Agreement between Kenya and Japan</string>
     <string name="sample5">Nairobi,March 16, 23018 \n National Treasury Cabinet Secretary, Henry Rotich (Center) and Japanese Ambassador to Kenya, Toshitsugu Uesawa (2nd Left) pend their signatures to loan agreements for Olkaria 1, 2 and 3 Geothermal Power Rehabilitation Project amounting to Sh 9.53 billion and the Exchange of</string>
+    <string name="address">The National Treasury\n
+    Treasury Building, Harambee Avenue\n
+    P.O Box 30007-00100\n
+    Nairobi</string>
+    <string name="complaints">complaints@treasury.go.ke\n Tel: 0771 448232</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="core_value_title">Core Values</string>
+    <string name="core_values">
+        The National Treasury is committed to providing quality services to all and is guided by the following Core Values:\n
+
+
+    </string>
+    <string name="core_values_numbered">
+        Customer focus \nResults Oriented \nStakeholder Participation \nProfessionalism \naccountability \nintegrity\ntransparency\n
+        Teamwork and Staff as key asset and Equity, fairness and inclusion
+    </string>
+
+
+    <!--Senior management-->
+    <string name="role1">Cabinet Secretary The National Treasury - Henry Rotich, EGH</string>
+    <string name="role2">Principal Secretary Dr Kamau Thugge, CBS</string>
+    <string name="role3">Principal Administrative Secretary - Mr Mutua Kilaka, CBS,SS</string>
+    <string name="role4">Director General/Budget, Fiscal and Economic Affairs
+Dr. Geoffrey N. Mwau, EBS</string>
+    <string name="role5">Ms Esther Koimett, EBS - Director General Public Investment and Portfolio Management</string>
+    <string name="role6">Mr. Bernard Ndun\'gu
+Director General Accounting Services and Quality Assurance</string>
+    <string name="role7">Mr. Jackson Njau Kinyanjui
+Ag. Director General- Public Debt Management Office and Director –Resources Mobilization Department</string>
+
+
+    <!--Former Finance ministers-->
+    <string name="minister1">Hon. Njeru Githae \n Tenure : <b>2012 - 2013</b></string>
+    <string name="minister2">Hon. Uhuru Kenyatta \n Tenure<b>2009 - 2012</b></string>
+    <string name="minister3">Hon. John Michuki \n Tenure<b>2008 - 2009</b></string>
+    <string name="minister4">Hon. Amos Kimunya\n Tenure<b>2006 - 2008</b></string>
+    <string name="minister5">Hon. Francis Masakhalia\n Tenure<b>2006 - 2006</b></string>
+    <string name="minister6">Hon. David Mwiraria\n <b>2003 - 2006</b></string>
+    <string name="minister7">Hon. Christopher Obure\n <b>2001 - 2002</b></string>
+    <string name="minister8">Hon. Chris Okemo\n <b>1999 - 2001</b></string>
+    <string name="minister9">Hon. Simeon Nyachae\n <b>1998 - 1999</b></string>
+    <string name="minister10">Hon. Wycliffe Musalia Mudavadi\n Tenure<b>1993 - 1997</b></string>
+    <string name="minister11">Hon. George Saitoti \n Tenure<b>1988 - 1992</b></string>
+    <string name="minister12">Hon. Arthur Magugu \n Tenure<b>1981 - 1988</b></string>
+    <string name="minister13">Hon. Mwai Kibaki\n Tenure<b>1969 - 1981</b></string>
+    <string name="minister14">Hon. James Gichuru\n Tenure<b>1965 - 1969</b></string>
+
+
+
+    <string name="vacancy1_title">SHORTLIST</string>
+    <string name="vacancy1">Assistant Director Supply Chain Management Officer JG P</string>
+    <string name="vacancy2">Assistant Internal Auditor General JG P</string>
+    <string name="vacancy3">Principal Internal Auditor JG N</string>
+
+    <string name="advert_title">Vacancies</string>
+    <string name="advert1"><b>INTERNAL ADVERT:</b> Senior Economist I/ Senior Statistician I JG N 28 Posts (Deadline: 4/6/2018)</string>
+    <string name="advert2">Internship Opportunities Available At The Public Private Partnership (PPP) Unit Of The National Treasury</string>
+    <string name="advert3">Internal Advertisement for Vacant Posts In The National Treasury, Ministries, State Departments</string>
+    <string name="advert4">INTERNAL ADVERTISEMENT FOR VACANT POSITIONS AT THE NATIONAL TREASURY - PFMR SECRETARIAT</string>
+    <string name="advert5">AMENDMENTS OF ADVERTISEMENT - FINANCE OFFICERS.</string>
+    <string name="advert6">INTERNAL ADVERTISEMENT FOR ACCOUNTANTS AND FINANCE OFFICERS</string>
+
+    <string name="form_title">Download Forms</string>
+    <string name="form1">Application For Internship Programme Form</string>
+    <string name="form2">PSC 2A HOD FORM REVISED 2016</string>
+
+    <string name="row_1_1">PRE- QUALIFICATION FOR PROVISION OF PRINTING SERVICES FOR ACCOUNTABLE AND OTHER DOCUMENTS.</string>
+    <string name="row_1_2">County Government Of Kitui</string>
+    <string name="row_1_3">June 13, 2018</string>
 </resources>

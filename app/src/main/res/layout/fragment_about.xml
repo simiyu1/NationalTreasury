@@ -1,0 +1,861 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="simiyu.com.treasury.AboutFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--Background information-->
+            <android.support.v7.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#90CAF9">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/title1"
+                        android:text="Background information"
+                        android:backgroundTint="@color/colorHeaderBg"
+                        android:gravity="center"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title1"
+                        android:id="@+id/sample1"
+                        android:layout_marginTop="4dp"
+                        android:padding="5dp"
+                        android:text="@string/sample1"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Click to read"
+                        android:id="@+id/more1"
+                        android:layout_below="@id/sample1"
+                        android:gravity="right"
+                        android:layout_marginRight="20dp"
+                        android:textColor="@color/colorPrimary"/>
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <!--executive summary-->
+            <android.support.v7.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#4FC3F7"
+                android:layout_below="@id/card1">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/title2"
+                        android:text="Executive Summary"
+                        android:backgroundTint="@color/colorHeaderBg"
+                        android:gravity="center"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sample2"
+                        android:layout_marginTop="15dp"
+                        android:padding="5dp"
+                        android:text="@string/sample2"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Click to read"
+                        android:id="@+id/more2"
+                        android:layout_below="@id/sample2"
+                        android:gravity="end"
+                        android:layout_marginEnd="20dp"
+                        android:textColor="@color/colorPrimary"/>
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <!--Mission, vision and core values-->
+            <android.support.v7.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#4FC3F7"
+                android:layout_below="@id/card2">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/title3"
+                        android:text="Our Vision And Mission"
+                        android:backgroundTint="@color/colorHeaderBg"
+                        android:gravity="center"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"/>
+
+
+                    <!--Vision Statement-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/vision"
+                        android:text="@string/vision"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title3"
+                        android:id="@+id/sample3"
+                        android:layout_marginTop="15dp"
+                        android:padding="5dp"
+                        android:text="@string/sample3"
+                        />
+
+                    <!--Missin Statement-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mission"
+                        android:text="@string/mission"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_below="@+id/sample3"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/mission"
+                        android:id="@+id/samp"
+                        android:layout_marginTop="2dp"
+                        android:padding="5dp"
+                        android:text="@string/mission_text"
+                        />
+
+                    <!--Core Values-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/title_corevalues"
+                        android:layout_below="@+id/samp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:text="@string/core_value_title"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/corevalues"
+                        android:layout_below="@+id/title_corevalues"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/core_values"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/corevalues_numbered"
+                        android:layout_below="@+id/corevalues"
+                        android:text="@string/core_values_numbered"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="45dp"
+                        android:textStyle="bold"/>
+
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="#4FC3F7"
+                android:layout_below="@id/card3">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/title4"
+                        android:text="Senior Management"
+                        android:backgroundTint="@color/colorHeaderBg"
+                        android:gravity="center"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"/>
+
+                    <!--About CS-->
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title4"
+                        android:id="@+id/linear1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/no1"
+                            android:text="1."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/role1"
+                            android:layout_toEndOf="@+id/no1"
+                            android:text="@string/role1"
+                            android:textColor="#4E342E"
+                            android:paddingStart="17dp"/>
+
+                    </android.support.constraint.ConstraintLayout>
+
+                    <!--Abut PS-->
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear1"
+                        android:id="@+id/linear2">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/no2"
+                            android:text="2."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/role2"
+                            android:layout_toEndOf="@+id/no2"
+                            android:text="@string/role2"
+                            android:textColor="#4E342E"
+                            android:paddingStart="17dp"/>
+
+                    </android.support.constraint.ConstraintLayout>
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear2"
+                        android:id="@+id/linear3">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/no3"
+                            android:text="3."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/role3"
+                            android:layout_toEndOf="@+id/no3"
+                            android:text="@string/role3"
+                            android:textColor="#4E342E"
+                            android:paddingStart="17dp"/>
+
+                    </android.support.constraint.ConstraintLayout>
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear3"
+                        android:id="@+id/linear4">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/no4"
+                            android:text="4."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/role4"
+                            android:layout_toEndOf="@+id/no4"
+                            android:text="@string/role4"
+                            android:textColor="#4E342E"
+                            android:paddingStart="17dp"/>
+
+                    </android.support.constraint.ConstraintLayout>
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear4"
+                        android:id="@+id/linear5">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/no5"
+                            android:text="5."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/role5"
+                            android:layout_toEndOf="@+id/no5"
+                            android:text="@string/role5"
+                            android:textColor="#4E342E"
+                            android:paddingStart="17dp"/>
+
+                    </android.support.constraint.ConstraintLayout>
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear5"
+                        android:id="@+id/linear6">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/no6"
+                            android:text="6."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/role6"
+                            android:layout_toEndOf="@+id/no6"
+                            android:text="@string/role6"
+                            android:textColor="#4E342E"
+                            android:paddingStart="17dp"/>
+
+                    </android.support.constraint.ConstraintLayout>
+
+                    <android.support.constraint.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear6"
+                        android:id="@+id/linear7">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/no7"
+                            android:text="7."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/role7"
+                            android:layout_toEndOf="@+id/no7"
+                            android:text="@string/role7"
+                            android:textColor="#4E342E"
+                            android:paddingStart="17dp"/>
+
+                    </android.support.constraint.ConstraintLayout>
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/card4">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/title5"
+                        android:text="Former Finance Ministers"
+                        android:backgroundTint="@color/colorHeaderBg"
+                        android:textColor="@color/colorTextHeader"
+                        android:gravity="center"
+                        android:textAllCaps="true"
+                        android:background="#7986CB"
+                        android:textStyle="bold"/>
+
+                    <!--About Former minister 1-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title5"
+                        android:id="@+id/linear_minister_1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/minister_no1"
+                            android:text="1."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/img_minister1"
+                            android:src="@drawable/githae"
+                            android:layout_toRightOf="@+id/minister_no1"
+                            android:layout_margin="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time_minister1"
+                            android:layout_toRightOf="@+id/img_minister1"
+                            android:text="@string/minister1"
+                            android:textColor="#4E342E"
+                            android:paddingStart="3dp"/>
+
+                    </RelativeLayout>
+
+                    <!--About Former minister 2-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear_minister_1"
+                        android:id="@+id/linear_minister_2">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/minister_no2"
+                            android:text="2."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/img_minister2"
+                            android:src="@drawable/kenyatta"
+                            android:layout_toRightOf="@+id/minister_no2"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time_minister2"
+                            android:layout_toRightOf="@+id/img_minister2"
+                            android:text="@string/minister2"
+                            android:textColor="#4E342E"
+                            android:paddingStart="3dp"/>
+
+                    </RelativeLayout>
+
+
+                    <!--About Former minister 3-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear_minister_2"
+                        android:id="@+id/linear_minister_3">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/minister_no3"
+                            android:text="3."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/img_minister3"
+                            android:src="@drawable/michuki"
+                            android:layout_toRightOf="@+id/minister_no3"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time_minister3"
+                            android:layout_toRightOf="@+id/img_minister3"
+                            android:text="@string/minister3"
+                            android:textColor="#4E342E"
+                            android:paddingStart="3dp"/>
+
+                    </RelativeLayout>
+
+
+                    <!--About Former minister 4-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear_minister_3"
+                        android:id="@+id/linear_minister_4">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/minister_no4"
+                            android:text="4."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/img_minister4"
+                            android:src="@drawable/kimunya"
+                            android:layout_toRightOf="@+id/minister_no4"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time_minister4"
+                            android:layout_toEndOf="@+id/img_minister4"
+                            android:text="@string/minister4"
+                            android:textColor="#4E342E"
+                            android:paddingStart="3dp"/>
+
+                    </RelativeLayout>
+
+
+                    <!--About Former minister 5-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear_minister_4"
+                        android:id="@+id/linear_minister_5">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/minister_no5"
+                            android:text="5."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/img_minister5"
+                            android:src="@drawable/masaskhalia"
+                            android:layout_toRightOf="@+id/minister_no5"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time_minister5"
+                            android:layout_toEndOf="@+id/img_minister5"
+                            android:text="@string/minister5"
+                            android:textColor="#4E342E"
+                            android:paddingStart="3dp"/>
+
+                    </RelativeLayout>
+
+                    <!--About Former minister 6-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear_minister_5"
+                        android:id="@+id/linear_minister_6">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/minister_no6"
+                            android:text="6."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/img_minister6"
+                            android:src="@drawable/mwiraria"
+                            android:layout_toRightOf="@+id/minister_no6"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time_minister6"
+                            android:layout_toEndOf="@+id/img_minister6"
+                            android:text="@string/minister6"
+                            android:textColor="#4E342E"
+                            android:paddingStart="3dp"/>
+
+                    </RelativeLayout>
+
+                    <!--About Former minister 7-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear_minister_6"
+                        android:id="@+id/linear_minister_7">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/minister_no7"
+                            android:text="7."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/img_minister7"
+                            android:src="@drawable/obure"
+                            android:layout_toRightOf="@+id/minister_no7"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time_minister7"
+                            android:layout_toEndOf="@+id/img_minister7"
+                            android:text="@string/minister4"
+                            android:textColor="#4E342E"
+                            android:paddingStart="3dp"/>
+
+                    </RelativeLayout>
+
+                    <!--About Former minister 8-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear_minister_7"
+                        android:id="@+id/linear_minister_8">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/minister_no8"
+                            android:text="8."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/img_minister8"
+                            android:src="@drawable/kimunya"
+                            android:layout_toRightOf="@+id/minister_no8"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time_minister8"
+                            android:layout_toEndOf="@+id/img_minister8"
+                            android:text="@string/minister8"
+                            android:textColor="#4E342E"
+                            android:paddingStart="3dp"/>
+
+                    </RelativeLayout>
+
+                    <!--About Former minister 9-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear_minister_8"
+                        android:id="@+id/linear_minister_9">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/minister_no9"
+                            android:text="9."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/img_minister9"
+                            android:src="@drawable/okemo"
+                            android:layout_toRightOf="@+id/minister_no9"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time_minister9"
+                            android:layout_toEndOf="@+id/img_minister9"
+                            android:text="@string/minister9"
+                            android:textColor="#4E342E"
+                            android:paddingStart="3dp"/>
+
+                    </RelativeLayout>
+
+                    <!--About Former minister 10-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear_minister_9"
+                        android:id="@+id/linear_minister_10">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/minister_no10"
+                            android:text="10."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/img_minister10"
+                            android:src="@drawable/nyachae"
+                            android:layout_toRightOf="@+id/minister_no10"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time_minister10"
+                            android:layout_toEndOf="@+id/img_minister10"
+                            android:text="@string/minister10"
+                            android:textColor="#4E342E"
+                            android:paddingStart="3dp"/>
+
+                    </RelativeLayout>
+
+                    <!--About Former minister 11-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear_minister_10"
+                        android:id="@+id/linear_minister_11">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/minister_no11"
+                            android:text="11."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/img_minister11"
+                            android:src="@drawable/musalia"
+                            android:layout_toRightOf="@+id/minister_no11"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time_minister11"
+                            android:layout_toEndOf="@+id/img_minister11"
+                            android:text="@string/minister11"
+                            android:textColor="#4E342E"
+                            android:paddingStart="3dp"/>
+
+                    </RelativeLayout>
+
+                    <!--About Former minister 12-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear_minister_11"
+                        android:id="@+id/linear_minister_12">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/minister_no12"
+                            android:text="12."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/img_minister12"
+                            android:src="@drawable/saitoti"
+                            android:layout_toRightOf="@+id/minister_no12"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time_minister12"
+                            android:layout_toEndOf="@+id/img_minister12"
+                            android:text="@string/minister4"
+                            android:textColor="#4E342E"
+                            android:paddingStart="3dp"/>
+
+                    </RelativeLayout>
+
+                    <!--About Former minister 13-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear_minister_12"
+                        android:id="@+id/linear_minister_13">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/minister_no13"
+                            android:text="12."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/img_minister13"
+                            android:src="@drawable/magugu"
+                            android:layout_toRightOf="@+id/minister_no13"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time_minister13"
+                            android:layout_toEndOf="@+id/img_minister13"
+                            android:text="@string/minister13"
+                            android:textColor="#4E342E"
+                            android:paddingStart="3dp"/>
+
+                    </RelativeLayout>
+
+                    <!--About Former minister 14-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linear_minister_13"
+                        android:id="@+id/linear_minister_14">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/minister_no14"
+                            android:text="14."
+                            android:textStyle="bold"
+                            android:paddingLeft="4dp"/>
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/img_minister14"
+                            android:src="@drawable/kibaki"
+                            android:layout_toRightOf="@+id/minister_no14"
+                            android:layout_margin="2dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/time_minister14"
+                            android:layout_toEndOf="@+id/img_minister14"
+                            android:text="@string/minister14"
+                            android:textColor="#4E342E"
+                            android:paddingStart="3dp"/>
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

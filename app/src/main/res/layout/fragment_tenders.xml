@@ -1,0 +1,155 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="simiyu.com.treasury.TendersFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3">
+
+            <EditText
+                android:id="@+id/search_text"
+                android:layout_width="310dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:hint="Search Tender" />
+
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_toEndOf="@+id/search_text"
+                android:background="@drawable/search"
+                android:layout_marginTop="22dp"/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/search_text"
+                android:layout_margin="10dp"
+                android:id="@+id/card_filter">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#42A5F5"
+                    android:text="View Tender By:"
+                    android:gravity="center"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:id="@+id/filter_text"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/filter_text"
+                    android:layout_marginTop="15dp"
+                    android:text="New"
+                    android:id="@+id/btn_new"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Categories"
+                    android:id="@+id/btn_categories"
+                    android:layout_marginLeft="85dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Closing"
+                    android:id="@+id/btn_closing"
+                    android:layout_marginLeft="191dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Expired"
+                    android:id="@+id/btn_expired"
+                    android:layout_marginLeft="280dp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_filter"
+                android:layout_margin="10dp">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1"
+                    android:orientation="vertical"
+                    android:shrinkColumns="0"
+                    android:padding="8dp">
+                    <TableRow>
+                        <TextView
+                            android:text="Tender Title"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textAllCaps="true"
+                            android:id="@+id/head1"/>
+                        <TextView
+                            android:text="Closing Date"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textAllCaps="true"
+                            android:id="@+id/head3"/>
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginBottom="10dp">
+                        <TextView
+                            android:text="@string/row_1_1"/>
+
+                        <TextView
+                            android:text="@string/row_1_3"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginBottom="10dp">
+                        <TextView
+                            android:text="@string/row_1_1"/>
+
+                        <TextView
+                            android:text="@string/row_1_3"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginBottom="10dp">
+                        <TextView
+                            android:text="@string/row_1_1"/>
+
+                        <TextView
+                            android:text="@string/row_1_3"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <!--<TableLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:stretchColumns="2"-->
+            <!--android:layout_margin="10dp">-->
+
+            <!--<TableRow>-->
+                <!--<TextView-->
+                    <!--android:layout_column="-1"-->
+                    <!--android:text="Tender No.:"-->
+                    <!--android:padding="2dip" />-->
+                <!--<TextView-->
+                    <!--android:text="Tender Description"-->
+                    <!--android:padding="3dip" />-->
+                <!--<TextView-->
+                    <!--android:text="Closing"-->
+                    <!--android:padding="2dip"/>-->
+            <!--</TableRow>-->
+        <!--</TableLayout>-->
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
